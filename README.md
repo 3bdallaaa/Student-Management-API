@@ -39,7 +39,7 @@ Visit: http://localhost:8080/h2-console (you can adjust the port)
    then use the generated token for Authorization
 
 3. POST http://localhost:8080/api/students  <br>
-    send required data for registering a new student <br> { "firstName": "first", "lastName": "student", "email": "A@example.com", "dateOfBirth": "2007-12-09" }
+    send required data for registering a new student <br> { "firstName": "first", "lastName": "student", "email": "first@example.com", "dateOfBirth": "2007-12-09" }
 
  #### Student endpoints  <br>
  
