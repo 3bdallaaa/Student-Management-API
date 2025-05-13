@@ -80,4 +80,6 @@ class StudentServiceTest {
     void deleteStudent_ThrowsWhenNotFound() {
         assertThrows(ResourceNotFoundException.class, () -> studentService.deleteStudent(1L));
     }
+
+
 }
