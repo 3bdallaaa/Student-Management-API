@@ -52,3 +52,5 @@ Visit: http://localhost:8080/h2-console (you can adjust the port)
 | /api/students/{id}    |  PUT   | Update a student     |     ADMIN      |
 | /api/students/{id}    | DELETE | Delete a student     |     ADMIN      |
 
+### You can find a unit tests for the service layer for testing all of them
+
