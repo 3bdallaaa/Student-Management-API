@@ -81,5 +81,4 @@ class StudentServiceTest {
         assertThrows(ResourceNotFoundException.class, () -> studentService.deleteStudent(1L));
     }
 
-
 }
