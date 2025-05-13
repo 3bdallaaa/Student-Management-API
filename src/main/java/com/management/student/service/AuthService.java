@@ -3,7 +3,6 @@ package com.management.student.service;
 import com.management.student.dto.AuthRequest;
 import com.management.student.dto.AuthResponse;
 import com.management.student.dto.RegisterRequest;
-//import com.management.student.model.Role;
 import com.management.student.model.User;
 import com.management.student.repository.UserRepository;
 import com.management.student.security.JwtService;
