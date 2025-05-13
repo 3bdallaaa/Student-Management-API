@@ -16,7 +16,7 @@ public class CustomAccessDeniedHandler implements AccessDeniedHandler {
             HttpServletResponse response,
             AccessDeniedException accessDeniedException
     ) throws IOException {
-        // customize error msg
+
         String errorMessage = "403 Forbidden: " + accessDeniedException.getMessage();
 
         response.setContentType("application/json");
